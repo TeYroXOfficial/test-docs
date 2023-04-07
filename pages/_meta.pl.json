@@ -1,0 +1,15 @@
+{
+  "index": "Wprowadzenie",
+  "another": "Inna strona",
+  "installation": "Jak zainstalować i uruchomić DarkBota?",
+  "about": {
+    "title": "O",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Kontakt ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  }
+}
