@@ -9,7 +9,7 @@ module.exports = withNextra({
     defaultLocale: 'en'
   }
 })
-const withMDX = require('YouTubeProps')({
+const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [],
