@@ -9,7 +9,7 @@ module.exports = withNextra({
     defaultLocale: 'en'
   }
 })
-const withMDX = require('@next/mdx')({
+const withMDX = require('nextra')({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [],
