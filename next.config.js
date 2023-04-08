@@ -10,6 +10,8 @@ module.exports = withNextra({
   }
 })
 const withMDX = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [],
