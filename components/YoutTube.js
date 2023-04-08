@@ -1,4 +1,4 @@
-import YouTubeProps from 'react-youtube';
+import YouTube from 'react-youtube';
 
 const YouTubeComponent = ({ videoId }) => {
     const opts = {
