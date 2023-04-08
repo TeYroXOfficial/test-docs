@@ -9,17 +9,3 @@ module.exports = withNextra({
     defaultLocale: 'en'
   }
 })
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-    // Register custom components here
-    // Here, we're registering a component called 'youtube' that uses our custom YouTubeComponent
-    components: {
-      youtube: './components/YouTube',
-    },
-  },
-});
-
-module.exports = withMDX();
